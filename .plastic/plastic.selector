@@ -1,0 +1,4 @@
+repository "SG4CD/SG4CD@9072208514200@cloud"
+  path "/"
+    br "/main"
+    co "/main"

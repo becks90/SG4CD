@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/RegisterMenu.unity
+    guid: 3c77cac79480df448b449fae088459c9
+  - enabled: 1
+    path: Assets/Scenes/LoginMenu.unity
+    guid: 756e840185c09e24c96bafba682ff68f
+  - enabled: 1
+    path: Assets/Scenes/StreakMenu.unity
+    guid: d736d54a0a33f534091b4a13d61dc067
+  - enabled: 1
+    path: Assets/Scenes/DiaryMenu.unity
+    guid: ea0518eebbaf1b7428a56c1893b0bfc3
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: b9a09c0034a44fa499cb0c2a011b6609
+  - enabled: 1
+    path: Assets/Scenes/ProfileMenu.unity
+    guid: 719c7db4a758de948bf6b0967d0df697
+  - enabled: 1
+    path: Assets/Scenes/ScenarioMenu.unity
+    guid: caa69bbc38d2e8a41a54bdef570308ee
+  - enabled: 1
+    path: Assets/Scenes/ControlMenu.unity
+    guid: bd1b5065e62f075458d78b224f57fe64
+  - enabled: 1
+    path: Assets/Scenes/ControlEntriesMenu.unity
+    guid: 37c2784e57b04584cab5e3eb70738d34
+  - enabled: 1
+    path: Assets/Scenes/ControlScenarioPlanMenu.unity
+    guid: e360533df1a258449b33f3c5ef42f46c
+  - enabled: 1
+    path: Assets/Scenes/ControlStatisticsMenu.unity
+    guid: f60a219fdeba58d4c9d5173f29870ba4
+  - enabled: 1
+    path: Assets/Scenes/ControlAddScenarioMenu.unity
+    guid: 9315bc2b057dbd14f9682884010dfb64
+  - enabled: 1
+    path: Assets/Scenes/RewardMenu.unity
+    guid: 29e5022e6e6711b488a5f8b55d212955
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0
