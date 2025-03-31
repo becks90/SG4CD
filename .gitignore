@@ -1,0 +1,9 @@
+# Unity automatisch generierte Dateien
+Library/
+Logs/
+Temp/
+obj/
+*.csproj
+*.unityproj
+*.sln
+*.user
