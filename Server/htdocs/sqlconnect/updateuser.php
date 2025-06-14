@@ -33,7 +33,7 @@ $password = isset($_POST['password']) ? $_POST['password'] : null;  // Passwort 
 // Wenn das Passwort übergeben wurde und eine gültige Länge hat, hash es
 if ($password !== null && strlen($password) >= 8) {
     // Passwort mit bcrypt hashen
-    $hashedPassword = password_hash($password, PASSWORD_BCRYPT);
+    $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
     $query = "UPDATE users SET email = ?, name = ?, password = ? WHERE id = ?";
 } else {
     // Wenn kein Passwort übergeben wurde, nur email und name aktualisieren
